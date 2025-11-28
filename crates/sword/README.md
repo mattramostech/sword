@@ -1,6 +1,10 @@
 # Sword (`sword-rs`)
 
-A backend framework built on [Axum](https://github.com/tokio-rs/axum) and [SeaORM](https://github.com/SeaQL/sea-orm) for rapid API development.
+**The core library of the Sword ecosystem.**
+
+Part of [Sword](https://github.com/mateusramos/sword) — an ecosystem of libraries and tools designed to bring both **performance** and **productivity** to backend development and distributed systems in Rust.
+
+This library provides batteries-included utilities built on [Axum](https://github.com/tokio-rs/axum) and [SeaORM](https://github.com/SeaQL/sea-orm), letting you focus on business logic instead of boilerplate.
 
 ## Features
 
@@ -9,6 +13,15 @@ A backend framework built on [Axum](https://github.com/tokio-rs/axum) and [SeaOR
 - **Migrations**: Automatic database migration support via SeaORM
 - **Configuration**: Environment-based configuration with sensible defaults
 - **Tracing**: Built-in structured logging with `tracing`
+
+### Roadmap
+
+- 📨 Event-driven architecture (message queues, pub/sub)
+- ⚙️ Background jobs and workers
+- 🔌 gRPC support
+- ☁️ Cloud storage integrations (S3, GCP Storage, Azure Blob)
+- 📊 Observability and metrics
+- 🔐 Authentication and authorization primitives
 
 ## Installation
 

@@ -1,6 +1,10 @@
 # Sword CLI
 
-CLI tool to scaffold backend projects using the Sword framework.
+**Scaffold production-ready Rust backend projects in seconds.**
+
+Part of [Sword](https://github.com/mateusramos/sword) — an ecosystem of libraries and tools designed to bring both **performance** and **productivity** to backend development and distributed systems in Rust.
+
+This CLI generates opinionated, well-structured projects with sensible defaults so you can focus on what matters: your business logic.
 
 ## Installation
 
