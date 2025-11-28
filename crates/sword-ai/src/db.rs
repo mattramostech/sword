@@ -16,7 +16,7 @@
 //! ## Example
 //!
 //! ```rust,ignore
-//! use sword::{connect_db, AppConfig};
+//! use sword_ai::{connect_db, AppConfig};
 //!
 //! let config = AppConfig::from_env()?;
 //! let db = connect_db(&config).await?;

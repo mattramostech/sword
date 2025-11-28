@@ -1,9 +1,12 @@
 #![warn(missing_docs)]
 
-//! # Sword Framework
+//! # SwordAI
 //!
-//! A backend framework built on [Axum](https://github.com/tokio-rs/axum) and
-//! [SeaORM](https://github.com/SeaQL/sea-orm) for rapid API development.
+//! Making Rust productive for backend, AI systems, data engineering,
+//! and distributed systems.
+//!
+//! Built on [Axum](https://github.com/tokio-rs/axum) and
+//! [SeaORM](https://github.com/SeaQL/sea-orm).
 //!
 //! ## Features
 //!
@@ -15,13 +18,13 @@
 //! ## Quick Start
 //!
 //! ```rust,ignore
-//! use sword::{server::run_with_migrator, FrameworkContext};
+//! use sword_ai::{server::run_with_migrator, FrameworkContext};
 //! use axum::{Router, routing::get};
 //!
 //! #[tokio::main]
 //! async fn main() -> anyhow::Result<()> {
 //!     dotenvy::dotenv().ok();
-//!     sword::tracing::init_tracing();
+//!     sword_ai::tracing::init_tracing();
 //!
 //!     run_with_migrator::<Migrator, _>(build_router, true).await
 //! }

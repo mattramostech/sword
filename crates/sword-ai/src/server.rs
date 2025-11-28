@@ -11,7 +11,7 @@
 //! ## Example
 //!
 //! ```rust,ignore
-//! use sword::server::run_with_migrator;
+//! use sword_ai::server::run_with_migrator;
 //! use axum::Router;
 //!
 //! run_with_migrator::<Migrator, _>(|ctx| {
@@ -46,7 +46,7 @@ pub struct FrameworkContext {
 /// # Example
 ///
 /// ```rust,ignore
-/// use sword::server::run;
+/// use sword_ai::server::run;
 /// use axum::{Router, routing::get};
 ///
 /// run(|ctx| {
@@ -92,7 +92,7 @@ where
 /// # Example
 ///
 /// ```rust,ignore
-/// use sword::server::run_with_migrator;
+/// use sword_ai::server::run_with_migrator;
 /// use axum::{Router, routing::get};
 ///
 /// run_with_migrator::<Migrator, _>(|ctx| {

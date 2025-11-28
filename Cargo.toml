@@ -1,7 +1,7 @@
 [workspace]
 resolver = "2"
 members = [
-    "crates/sword",
+    "crates/sword-ai",
     "crates/sword-cli",
 ]
 

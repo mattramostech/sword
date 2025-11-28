@@ -18,7 +18,7 @@
 //! ## Example
 //!
 //! ```rust,ignore
-//! use sword::AppConfig;
+//! use sword_ai::AppConfig;
 //!
 //! let config = AppConfig::from_env()?;
 //! println!("Binding to {}", config.bind_address());

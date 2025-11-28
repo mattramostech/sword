@@ -16,7 +16,7 @@
 //! ## Example
 //!
 //! ```rust,ignore
-//! use sword::tracing::init_tracing;
+//! use sword_ai::tracing::init_tracing;
 //!
 //! fn main() {
 //!     init_tracing();

@@ -1,8 +1,8 @@
-# Sword (`sword-rs`)
+# SwordAI (`sword-ai`)
 
-**The core library of the Sword ecosystem.**
+**The core library of the SwordAI ecosystem.**
 
-Part of [Sword](https://github.com/mateusramos/sword) — an ecosystem of libraries and tools designed to bring both **performance** and **productivity** to backend development and distributed systems in Rust.
+Part of [SwordAI](https://github.com/mateusramos/sword-ai) — an ecosystem of libraries and tools designed to bring both **performance** and **productivity** to backend development, AI systems, data engineering, and distributed systems in Rust.
 
 This library provides batteries-included utilities built on [Axum](https://github.com/tokio-rs/axum) and [SeaORM](https://github.com/SeaQL/sea-orm), letting you focus on business logic instead of boilerplate.
 
@@ -16,12 +16,14 @@ This library provides batteries-included utilities built on [Axum](https://githu
 
 ### Roadmap
 
+- 🤖 AI/ML integration primitives
 - 📨 Event-driven architecture (message queues, pub/sub)
 - ⚙️ Background jobs and workers
 - 🔌 gRPC support
 - ☁️ Cloud storage integrations (S3, GCP Storage, Azure Blob)
 - 📊 Observability and metrics
 - 🔐 Authentication and authorization primitives
+- 🔄 Distributed systems patterns
 
 ## Installation
 
@@ -29,13 +31,13 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-sword = { package = "sword-rs", version = "0.1" }
+sword-ai = "0.1"
 ```
 
 ## Quick Start
 
 ```rust
-use sword::{server::run_with_migrator, FrameworkContext};
+use sword_ai::{server::run_with_migrator, FrameworkContext};
 use axum::{Router, routing::get};
 
 // Your migrator (from sea-orm-migration)
@@ -44,7 +46,7 @@ struct Migrator;
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
     dotenvy::dotenv().ok();
-    sword::tracing::init_tracing();
+    sword_ai::tracing::init_tracing();
 
     run_with_migrator::<Migrator, _>(build_router, true).await
 }
@@ -81,13 +83,13 @@ The framework reads configuration from environment variables:
 
 ## CLI Tool
 
-For quickly scaffolding new projects, download the Sword CLI from [GitHub Releases](https://github.com/mateusramos/sword/releases):
+For quickly scaffolding new projects, download the Sword CLI from [GitHub Releases](https://github.com/mateusramos/sword-ai/releases):
 
 ```bash
 sword new my-api
 ```
 
-See the main [repository](https://github.com/mateusramos/sword) for installation instructions.
+See the main [repository](https://github.com/mateusramos/sword-ai) for installation instructions.
 
 ## License
 

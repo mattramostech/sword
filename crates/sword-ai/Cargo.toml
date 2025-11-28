@@ -1,16 +1,16 @@
 [package]
-name = "sword-rs"
+name = "sword-ai"
 version = "0.1.0"
 edition.workspace = true
 rust-version.workspace = true
 license.workspace = true
 authors.workspace = true
-description = "A backend framework built on Axum and SeaORM for rapid API development"
-repository = "https://github.com/mateusramos/sword"
-homepage = "https://github.com/mateusramos/sword"
-documentation = "https://docs.rs/sword-rs"
+description = "Ecosystem of libraries and tools designed to bring both performance and productivity to backend development, AI systems, data engineering, and distributed systems in Rust"
+repository = "https://github.com/mateusramos/sword-ai"
+homepage = "https://github.com/mateusramos/sword-ai"
+documentation = "https://docs.rs/sword-ai"
 readme = "README.md"
-keywords = ["axum", "backend", "framework", "seaorm", "api"]
+keywords = ["axum", "backend", "framework", "ai", "distributed-systems"]
 categories = ["web-programming::http-server", "database"]
 
 [package.metadata.docs.rs]

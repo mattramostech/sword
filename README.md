@@ -1,14 +1,14 @@
-# Sword
+# SwordAI
 
-**Making Rust productive for backend and distributed systems.**
+**Making Rust productive for backend, AI systems, data engineering, and distributed systems.**
 
-Sword is more than a framework — it's a growing ecosystem of libraries and tools designed to bring both **performance** and **productivity** to backend development and distributed systems in Rust.
+SwordAI is more than a framework — it's a growing ecosystem of libraries and tools designed to bring both **performance** and **productivity** to backend development, AI systems, data engineering, and distributed systems in Rust.
 
 ## Vision
 
-Rust offers unmatched performance and safety, but building production backend systems often requires stitching together many crates with significant boilerplate. Sword aims to change that by providing:
+Rust offers unmatched performance and safety, but building production systems often requires stitching together many crates with significant boilerplate. SwordAI aims to change that by providing:
 
-- **Batteries-included libraries** for common backend patterns
+- **Batteries-included libraries** for common backend, distributed systems, AI, and data engineering patterns
 - **A CLI** that scaffolds production-ready projects in seconds
 - **Opinionated defaults** that let you focus on business logic
 
@@ -21,25 +21,27 @@ Rust offers unmatched performance and safety, but building production backend sy
 
 ### Roadmap
 
+- 🤖 AI/ML integration primitives
 - 📨 Event-driven architecture (message queues, pub/sub)
 - ⚙️ Background jobs and workers
 - 🔌 gRPC support
 - ☁️ Cloud storage integrations (S3, GCP Storage, Azure Blob)
 - 📊 Observability and metrics
 - 🔐 Authentication and authorization primitives
+- 🔄 Distributed systems patterns
 
 ## Structure
 
 This repository contains:
 
-- `crates/sword` - The Sword framework library with server configuration, database connection, and tracing utilities
-- `crates/sword-cli` - CLI tool to generate new projects using the Sword framework
+- `crates/sword-ai` - The SwordAI framework library with server configuration, database connection, and tracing utilities
+- `crates/sword-cli` - CLI tool to generate new projects using the SwordAI framework
 
 ## Installation
 
 ### Download the CLI binary
 
-Download the latest release for your platform from [GitHub Releases](https://github.com/mateusramos/sword/releases).
+Download the latest release for your platform from [GitHub Releases](https://github.com/mateusramos/sword-ai/releases).
 
 ```bash
 # Linux/macOS - move to PATH
@@ -53,7 +55,7 @@ mv sword ~/.local/bin/
 ### Build from source
 
 ```bash
-git clone https://github.com/mateusramos/sword.git
+git clone https://github.com/mateusramos/sword-ai.git
 cd sword
 cargo build --release
 ```
@@ -159,7 +161,7 @@ my-api/
 
 ## Features
 
-The Sword framework provides:
+The SwordAI framework provides:
 
 - **Server Setup**: Pre-configured Axum server with tracing
 - **Database**: SeaORM integration with PostgreSQL
@@ -179,7 +181,7 @@ Generated projects include example user management endpoints:
 
 ## Development
 
-To work on the Sword framework itself:
+To work on the SwordAI framework itself:
 
 ```bash
 # Build the workspace
@@ -199,16 +201,16 @@ cargo clippy
 
 When releasing a new version:
 
-1. Update `sword-rs` crate version in `crates/sword/Cargo.toml`
-2. Run `cargo publish -p sword-rs`
+1. Update `sword-ai` crate version in `crates/sword-ai/Cargo.toml`
+2. Run `cargo publish -p sword-ai`
 3. Update `SWORD_VERSION` constant in `crates/sword-cli/src/commands/new.rs`
 4. Build CLI binaries for each platform and create a GitHub Release
 
 ## Contributing
 
-When contributing, if you modify the `sword` library in a way that requires a version bump:
+When contributing, if you modify the `sword-ai` library in a way that requires a version bump:
 
-1. Update the version in `crates/sword/Cargo.toml`
+1. Update the version in `crates/sword-ai/Cargo.toml`
 2. Update `SWORD_VERSION` in `crates/sword-cli/src/commands/new.rs` to match
 
 ## License
