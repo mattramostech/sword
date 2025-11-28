@@ -2,7 +2,7 @@
 
 **The core library of the SwordAI ecosystem.**
 
-Part of [SwordAI](https://github.com/mateusramos/sword-ai) — an ecosystem of libraries and tools designed to bring both **performance** and **productivity** to backend development, AI systems, data engineering, and distributed systems in Rust.
+Part of [SwordAI](https://github.com/mattramostech/sword-ai) — an ecosystem of libraries and tools designed to bring both **performance** and **productivity** to backend development, AI systems, data engineering, and distributed systems in Rust.
 
 This library provides batteries-included utilities built on [Axum](https://github.com/tokio-rs/axum) and [SeaORM](https://github.com/SeaQL/sea-orm), letting you focus on business logic instead of boilerplate.
 
@@ -83,13 +83,13 @@ The framework reads configuration from environment variables:
 
 ## CLI Tool
 
-For quickly scaffolding new projects, download the Sword CLI from [GitHub Releases](https://github.com/mateusramos/sword-ai/releases):
+For quickly scaffolding new projects, download the Sword CLI from [GitHub Releases](https://github.com/mattramostech/sword-ai/releases):
 
 ```bash
 sword new my-api
 ```
 
-See the main [repository](https://github.com/mateusramos/sword-ai) for installation instructions.
+See the main [repository](https://github.com/mattramostech/sword-ai) for installation instructions.
 
 ## License
 

@@ -1,13 +1,13 @@
 [package]
 name = "sword-ai"
-version = "0.1.0"
+version = "0.1.1"
 edition.workspace = true
 rust-version.workspace = true
 license.workspace = true
 authors.workspace = true
 description = "Ecosystem of libraries and tools designed to bring both performance and productivity to backend development, AI systems, data engineering, and distributed systems in Rust"
-repository = "https://github.com/mateusramos/sword-ai"
-homepage = "https://github.com/mateusramos/sword-ai"
+repository = "https://github.com/mattramostech/sword-ai"
+homepage = "https://github.com/mattramostech/sword-ai"
 documentation = "https://docs.rs/sword-ai"
 readme = "README.md"
 keywords = ["axum", "backend", "framework", "ai", "distributed-systems"]

@@ -2,7 +2,7 @@
 
 **Scaffold production-ready Rust backend projects in seconds.**
 
-Part of [SwordAI](https://github.com/mateusramos/sword-ai) — an ecosystem of libraries and tools designed to bring both **performance** and **productivity** to backend development, AI systems, data engineering, and distributed systems in Rust.
+Part of [SwordAI](https://github.com/mattramostech/sword-ai) — an ecosystem of libraries and tools designed to bring both **performance** and **productivity** to backend development, AI systems, data engineering, and distributed systems in Rust.
 
 This CLI generates opinionated, well-structured projects with sensible defaults so you can focus on what matters: your business logic.
 
@@ -10,7 +10,7 @@ This CLI generates opinionated, well-structured projects with sensible defaults 
 
 ### Download the binary
 
-Download the latest release for your platform from [GitHub Releases](https://github.com/mateusramos/sword-ai/releases).
+Download the latest release for your platform from [GitHub Releases](https://github.com/mattramostech/sword-ai/releases).
 
 ```bash
 # Linux/macOS - move to PATH
@@ -24,7 +24,7 @@ mv sword ~/.local/bin/
 ### Build from source
 
 ```bash
-git clone https://github.com/mateusramos/sword-ai.git
+git clone https://github.com/mattramostech/sword-ai.git
 cd sword
 cargo build --release
 ```
@@ -72,7 +72,7 @@ The CLI generates a complete backend project with:
 - **Dockerfile** for production deployment
 - **Automatic migrations** on startup
 
-See the main [repository](https://github.com/mateusramos/sword-ai) for more details.
+See the main [repository](https://github.com/mattramostech/sword-ai) for more details.
 
 ## License
 

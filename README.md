@@ -41,7 +41,7 @@ This repository contains:
 
 ### Download the CLI binary
 
-Download the latest release for your platform from [GitHub Releases](https://github.com/mateusramos/sword-ai/releases).
+Download the latest release for your platform from [GitHub Releases](https://github.com/mattramostech/sword-ai/releases).
 
 ```bash
 # Linux/macOS - move to PATH
@@ -55,7 +55,7 @@ mv sword ~/.local/bin/
 ### Build from source
 
 ```bash
-git clone https://github.com/mateusramos/sword-ai.git
+git clone https://github.com/mattramostech/sword-ai.git
 cd sword
 cargo build --release
 ```

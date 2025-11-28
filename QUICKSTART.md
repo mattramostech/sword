@@ -10,7 +10,7 @@ This guide will help you get started with the Sword CLI and create your first ba
 
 ## Step 1: Install the Sword CLI
 
-Download the latest release for your platform from [GitHub Releases](https://github.com/mateusramos/sword-ai/releases):
+Download the latest release for your platform from [GitHub Releases](https://github.com/mattramostech/sword-ai/releases):
 
 ```bash
 # Linux/macOS
@@ -21,7 +21,7 @@ sudo mv sword /usr/local/bin/
 Or build from source:
 
 ```bash
-git clone https://github.com/mateusramos/sword-ai.git
+git clone https://github.com/mattramostech/sword-ai.git
 cd sword
 cargo build --release
 # The binary will be at target/release/sword

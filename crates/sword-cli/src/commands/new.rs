@@ -7,7 +7,7 @@ static TEMPLATES_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/templates/base");
 
 /// Version of the sword library that generated projects will use.
 /// Update this constant when publishing a new version of the sword crate.
-const SWORD_VERSION: &str = "0.1.0";
+const SWORD_VERSION: &str = "0.1.1";
 
 pub fn execute(
     name: Option<String>,
