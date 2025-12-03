@@ -17,8 +17,8 @@ enum Commands {
         /// Name of the project
         name: Option<String>,
 
-        /// Output directory (defaults to parent directory)
-        #[arg(short, long, default_value = "..")]
+        /// Output directory (defaults to current directory)
+        #[arg(short, long, default_value = ".")]
         out_dir: String,
 
         /// Initialize in the specified directory instead of creating a subdirectory
